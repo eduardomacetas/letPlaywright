@@ -21,5 +21,5 @@ test("Move slider", async ({ page }) => {
   await page.mouse.up();
 
   // Assert that the value element displays '100'.
-  await expect(page.locator("[id='value']")).toHaveText('100');
+  await expect(page.locator("[id='value']")).toHaveText("100");
 });
